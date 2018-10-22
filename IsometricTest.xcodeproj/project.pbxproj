@@ -15,6 +15,7 @@
 		5D548387217DCFBD00E765E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D548385217DCFBD00E765E4 /* Main.storyboard */; };
 		5D548389217DCFBE00E765E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D548388217DCFBE00E765E4 /* Assets.xcassets */; };
 		5D54838C217DCFBE00E765E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D54838A217DCFBE00E765E4 /* LaunchScreen.storyboard */; };
+		5D548394217DCFEC00E765E4 /* IsometricLevelGeneretor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D548393217DCFEC00E765E4 /* IsometricLevelGeneretor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5D548388217DCFBE00E765E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D54838B217DCFBE00E765E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D54838D217DCFBE00E765E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D548393217DCFEC00E765E4 /* IsometricLevelGeneretor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsometricLevelGeneretor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5D548388217DCFBE00E765E4 /* Assets.xcassets */,
 				5D54838A217DCFBE00E765E4 /* LaunchScreen.storyboard */,
 				5D54838D217DCFBE00E765E4 /* Info.plist */,
+				5D548393217DCFEC00E765E4 /* IsometricLevelGeneretor.swift */,
 			);
 			path = IsometricTest;
 			sourceTree = "<group>";
@@ -105,6 +108,11 @@
 				TargetAttributes = {
 					5D548377217DCFBD00E765E4 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -148,6 +156,7 @@
 			files = (
 				5D548382217DCFBD00E765E4 /* GameScene.swift in Sources */,
 				5D548384217DCFBD00E765E4 /* GameViewController.swift in Sources */,
+				5D548394217DCFEC00E765E4 /* IsometricLevelGeneretor.swift in Sources */,
 				5D54837C217DCFBD00E765E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
