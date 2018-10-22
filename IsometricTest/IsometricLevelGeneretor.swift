@@ -25,15 +25,18 @@ class HandleIsometricsLevel{
         let deviceScale = view.scene!.size.width/400
         var Spacing = spacing
         
-        for i in 1...numberLevel{
+           for i in 0..<numberLevel{
             let element = SKSpriteNode()
             element.position = CGPoint(x: view.scene!.size.width*0.001 - 65, y: (view.scene!.size.height * CGFloat(Spacing)) - CGFloat(positionY))
             print(viewIso.count)
             Spacing = Spacing + 0.04
-            viewIso.append(element)
+            if(i == 0){
+                viewIso[0] = element}
+            else {viewIso.append(element)}
             
             viewIso[i].xScale = deviceScale
             viewIso[i].yScale = deviceScale
+            
             view.scene!.addChild(viewIso[i])
          
         }
