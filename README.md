@@ -5,5 +5,5 @@ example with a isometric texture:<br />
  <br />texture : https://kenney.nl/assets/isometric-buildings
 
 
-tutorial: https://gamedevelopment.tutsplus.com/tutorials/creating-isometric-worlds-a-primer-for-game-developers--gamedev-6511
+tutorial: https://gamedevelopment.tutsplus.com/tutorials/creating-isometric-worlds-a-primer-for-game-developers--gamedev-6511 <br />
 tutorial: http://bigspritegames.com/isometric-tile-based-game-part-1/
